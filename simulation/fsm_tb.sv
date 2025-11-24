@@ -21,7 +21,7 @@ end
 
 task random_sequence(); 
 begin 
-    repeat(80)   
+    repeat(1000)   
     begin
         x_i = $random(); // {$random} % 0 or 1
         #10;    
