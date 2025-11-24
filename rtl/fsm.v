@@ -42,7 +42,7 @@ module fsm (
     always @(*) begin
         next_state <= S0;   // valor por defecto
 
-        unique case (current_state)
+        case (current_state)
 
             S0: begin
                 y_o <= 1'b0;
@@ -120,4 +120,3 @@ module fsm (
     end
 
 endmodule
-
